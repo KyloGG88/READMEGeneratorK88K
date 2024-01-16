@@ -29,18 +29,18 @@ const questions = [
     type: "input",
     name: "installation",
     message:
-      "State the languages or technologies associated with this project.",
+      "What are the steps required to install your project?",
   },
   {
     type: "input",
     name: "usage",
     message:
-      "State the languages or technologies associated with this project.",
+      "State the languages or technologies used within this project.",
   },
   {
     type: "input",
     name: "features",
-    message: "List some cool features about this project here.",
+    message: "If your project has a lot of features, list them here?",
   },
   {
     type: "input",
