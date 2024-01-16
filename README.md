@@ -86,6 +86,10 @@ Here are some guidelines to help you get started:
 *     https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 ***jQuery***
 *     https://api.jquery.com/jQuery.get/
+***DEV.to Badges***
+*     https://dev.to/envoy_/150-badges-for-github-pnk
+
+
 
 ## Links
 
