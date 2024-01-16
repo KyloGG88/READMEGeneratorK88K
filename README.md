@@ -105,7 +105,7 @@ Here are some guidelines to help you get started:
 
 ![GitHub link](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white): Github Repo[KyloGG88 Github](https://github.com/KyloGG88/READMEGeneratorK88K)
 
-Video Link: [Video Link](https://github.com/KyloGG88/READMEGeneratorK88K)
+Video Link: [Video Link](https://drive.google.com/file/d/1FNKqIHE_3Y2Nu9A6Yb3QZUIkjcHUNOud/view?usp=drive_link)
 
 ## License
 
