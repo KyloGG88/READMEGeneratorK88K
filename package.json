@@ -1,0 +1,14 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "- [Description](#description)\r - [Motivation](#motivation)\r - [User Story](#user-story)\r - [Learning Journey](#learning-journey)\r - [Usage](#usage)\r - [Features](#features)\r - [Testing](#testing)\r - [Future Development](#future-development)\r - [Resources](#resoures)\r - [Links](#links)\r - [Credits](#credits)\r - [License](#license)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  }
+}
