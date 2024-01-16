@@ -1,4 +1,4 @@
-# READMEGeneratorK88K
+# READMEGeneratorK88K ![Github license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 
 # Module 11 Challenge: Professional README Generator
 
