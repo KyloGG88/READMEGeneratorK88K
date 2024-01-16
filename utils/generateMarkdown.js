@@ -6,8 +6,13 @@ function generateMarkdown(data) {
     
     ## Table of Contents
 
+    - [Installation](#installation)
     - [Usage](#usage)
+    - [Features](#features)
+    - [Contributors](#contributors)
     - [License](#license)
+    - [Test](#test)
+    - [Contact](#contact)
 
     ## Installation
     ${data.installation}
@@ -29,7 +34,8 @@ function generateMarkdown(data) {
     ## Tests
     ${data.test}
 
-    ## Get in Touch
+    ## Contact
+    ###Get in Touch
     If you have any questions, [Contact Me](mailto:${data.contact}) or visit my [Github](https://github.com/${data.username})
 `;
 }
