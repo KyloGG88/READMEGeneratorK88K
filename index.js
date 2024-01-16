@@ -27,6 +27,12 @@ const questions = [
   },
   {
     type: "input",
+    name: "installation",
+    message:
+      "State the languages or technologies associated with this project.",
+  },
+  {
+    type: "input",
     name: "usage",
     message:
       "State the languages or technologies associated with this project.",
@@ -74,7 +80,7 @@ function init() {
           writeToFile('NEW_README.md', newReadMe);
       })
       .catch((error) => {
-          console.error('An error occurred: ', error);
+          console.error('An error occurred: '+ error + 'Admin, Please debug your code');
       });
 }
 

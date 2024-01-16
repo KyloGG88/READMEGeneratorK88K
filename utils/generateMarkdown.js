@@ -9,18 +9,19 @@ function generateMarkdown(data) {
     - [Usage](#usage)
     - [License](#license)
 
+    ## Installation
+    ${data.installation}
+
     ## Usage
     ${data.usage}
+
+    ![alt text](assets/images/screenshot.png)
 
     ## Features
     ${data.features}
 
     ## Contributors
     ${data.contributors}
-
-    ## Resources
-    ${data.credits}
-    
 
     ## License
     ${data.license}

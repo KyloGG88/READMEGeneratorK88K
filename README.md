@@ -87,6 +87,7 @@ Here are some guidelines to help you get started:
 *     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 *     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch
 *     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then
+*     https://developer.mozilla.org/en-US/docs/Web/API/console/error_static
 ***Stackify***
 *     https://stackify.com/node-js-error-handling/
 ***Github Docs***
