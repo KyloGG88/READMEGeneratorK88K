@@ -78,8 +78,17 @@ Here are some guidelines to help you get started:
 
 ***Node.js***
 *     https://nodejs.org/docs/latest/api/
+*     https://nodejs.org/en/learn/manipulating-files/writing-files-with-nodejs
+***NPMjs***
+*     https://www.npmjs.com/package/inquirer#inquirerpromptquestions-answers---promise
 ***Tutorial.MD***
 *     https://agea.github.io/tutorial.md/
+***mdn web docs***
+*     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+*     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch
+*     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then
+***Stackify***
+*     https://stackify.com/node-js-error-handling/
 ***Github Docs***
 *     https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 ***Coding-Boot-Camp***

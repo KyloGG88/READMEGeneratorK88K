@@ -6,61 +6,78 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // array of questions for user
 const questions = [
   {
+    type: "input",
+    name: "contact",
+    message: "Provide a valid email address.",
+  },
+  {
+    type: "input",
+    name: "username",
+    message: "Write your GitHub username.",
+  },
+  {
   type: "input",
     name: "title",
   message: "What is the name of your project?",
   },
   {
     type: "input",
-      name: "description",
+    name: "description",
     message: "Provide a short description explaining the what, why, and how of your project?",
   },
   {
+    type: "input",
+    name: "usage",
+    message:
+      "State the languages or technologies associated with this project.",
+  },
+  {
+    type: "input",
+    name: "features",
+    message: "List some cool features about this project here.",
+  },
+  {
+    type: "input",
+    name: "contributors",
+    message: "Please list any contributors. (Use GitHub usernames)",
+    default: "",
+  },
+  {
     type: "checkbox",
-      name: "table",
-    message: "",
+    name: "license",
+    message: "Please select a license applicable to this project.",
+    choices: ["MIT", "APACHE2.0", "CCZ1.0-Universal", "MPL2.0", "GPL3.0", "BSD3", "none"],
   },
   {
-    type: "",
-      name: "",
-    message: "",
+    type: "input",
+    name: "test",
+    message: "Provide walkthrough of required tests if applicable.",
   },
-  {
-    type: "",
-      name: "",
-    message: "",
-  },
-  {
-    type: "",
-      name: "",
-    message: "",
-  },
-  {
-    type: "",
-      name: "",
-    message: "",
-  },
-  {
-    type: "",
-      name: "",
-    message: "",
-  },
-
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
-
-
-  
-  
-
+  fs.writeFile(fileName, data, (err) => {
+      if (err) {
+          console.error(err);
+      } else {
+          console.log('Success! A README.md file has been created.');
+      }
+  });
 }
 
 // function to initialize program
 function init() {
-
+  inquirer.prompt(questions)
+      .then((answers) => {
+          const newReadMe = generateMarkdown(answers);
+          writeToFile('NEW_README.md', newReadMe);
+      })
+      .catch((error) => {
+          console.error('An error occurred: ', error);
+      });
 }
 
 // function call to initialize program
 init();
+
