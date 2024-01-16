@@ -1,4 +1,4 @@
-# READMEGeneratorK88K ![Github license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
+# READMEGeneratorK88K ![EDx](https://img.shields.io/badge/Edx-193A3E?style=for-the-badge&logo=edx&logoColor=white)
 
 # Module 11 Challenge: Professional README Generator
 
@@ -97,4 +97,4 @@ Here are some guidelines to help you get started:
 
 ## License
 
-Public - MIT License
+Public - MIT License ![license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
