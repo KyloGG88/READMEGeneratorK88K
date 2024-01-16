@@ -93,7 +93,7 @@ Here are some guidelines to help you get started:
 
 ## Links
 
-GitHub link: [KyloGG88 Github](https://github.com/KyloGG88/READMEGeneratorK88K)
+[GitHub link](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white): [KyloGG88 Github](https://github.com/KyloGG88/READMEGeneratorK88K)
 
 ## License
 
